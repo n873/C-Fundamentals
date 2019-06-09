@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE787BFC22AC1D7F004C0B1A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE787BFB22AC1D7F004C0B1A /* main.cpp */; };
+		AEDE075F22AD0055003991E0 /* GuessMyNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEDE075E22AD0055003991E0 /* GuessMyNumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		AE787BF822AC1D7F004C0B1A /* GuessTheNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuessTheNumber; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE787BFB22AC1D7F004C0B1A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AEDE075E22AD0055003991E0 /* GuessMyNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GuessMyNumber.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		AE787BEF22AC1D7F004C0B1A = {
 			isa = PBXGroup;
 			children = (
-				AE787BFA22AC1D7F004C0B1A /* GuessTheNumber */,
+				AEDE075E22AD0055003991E0 /* GuessMyNumber.cpp */,
 				AE787BF922AC1D7F004C0B1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +52,6 @@
 				AE787BF822AC1D7F004C0B1A /* GuessTheNumber */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AE787BFA22AC1D7F004C0B1A /* GuessTheNumber */ = {
-			isa = PBXGroup;
-			children = (
-				AE787BFB22AC1D7F004C0B1A /* main.cpp */,
-			);
-			path = GuessTheNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +110,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE787BFC22AC1D7F004C0B1A /* main.cpp in Sources */,
+				AEDE075F22AD0055003991E0 /* GuessMyNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
